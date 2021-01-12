@@ -29,5 +29,6 @@
   <%= link_to 'New Contact', new_contact_path, class:"btn btn-secondary" %>
 
 <% else %>
-  <h1>Loading...</h1>
+  <h2>Welcome to Contacts App<br /></h2>
+  <h5><%= link_to 'Sign in', new_user_session_path %> or <%= link_to 'create', new_user_registration_path %> a new account. </h5>
 <% end %>

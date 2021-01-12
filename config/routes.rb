@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources :contacts
   # get 'home/index'
   # root 'home#index'
+
   root 'contacts#index'
 
   get 'home/about'
